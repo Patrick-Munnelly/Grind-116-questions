@@ -18,9 +18,6 @@ var solution = function(isBadVersion) {
      * @return {integer} The first bad version
      */
     return function(n) {
-        let left=0
-        let right=n
-        let middle=left+(right-left)/2
        
         if (n==1) return 1;
         let begin=1
